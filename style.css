@@ -1,8 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: 'Noto Sans JS', sans-serif;
+}
+
+main {
+    background: grey;
+    color: rgb(230, 227, 227);
+    font-weight: bold;
+    height: 100vh;
+}
+
+.home h2 {
+    text-align: center;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.paragraph{
+    width: 50%;
 }
 
