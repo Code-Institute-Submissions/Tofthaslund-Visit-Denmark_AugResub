@@ -4,11 +4,11 @@
     font-family: 'Noto Sans JS', sans-serif;
 }
 
-main {
+main .index{
     background: grey;
     color: rgb(230, 227, 227);
     font-weight: bold;
-    height: 100vh;
+    height: max-content;
 }
 
 .home h2 {
@@ -17,7 +17,33 @@ main {
     padding-top: 5%;
 }
 
-.paragraph{
-    width: 50%;
+/*--------------------Cities.html*/
+
+.cph-logo{
+  background-image: url('/Photo-by-nick-Karvounis-on-Unsplash-copenhagen.jpg');  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
 }
 
+.cph-text{
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    width: 75%;
+}
+
+.ros-log{
+    background-image: url('/photo-by-andreas-dress-on-unspash-roskilde.jpg');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+  
