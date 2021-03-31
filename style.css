@@ -33,7 +33,7 @@
 /*--------------------Cities.html*/
 
 .city-nav{
-    width: 15%;
+    width: 13%;
     border: 1px solid black;
     z-index: 9;
     position: fixed;
@@ -155,7 +155,9 @@
 
 /*---------------convertor.index*/
 
-
+.converter-main{
+    height: 100vh;
+}
 
 /* --------------------Footer */
 
