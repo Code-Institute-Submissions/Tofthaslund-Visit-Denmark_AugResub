@@ -32,6 +32,21 @@
 
 /*--------------------Cities.html*/
 
+.city-nav{
+    width: 15%;
+    border: 1px solid black;
+    z-index: 9;
+    position: fixed;
+    background-color: rgba(255, 255, 255 , 0.5);
+    font-weight: bold; 
+}
+
+.city-nav li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
 .cph-logo {
     min-height: 100vh;
     height: auto;
@@ -42,6 +57,7 @@
     position: relative;
   }
   
+
   .cph-text {
     position: absolute;
     top: 50%;
