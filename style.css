@@ -2,6 +2,9 @@
 
 * {
     font-family: 'Noto Sans JS', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /*-----------------------index.html*/
@@ -29,25 +32,28 @@
 
 /*--------------------Cities.html*/
 
-.cph-logo{
-  background-image: url('/Photo-by-nick-Karvounis-on-Unsplash-copenhagen.jpg');  
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 100vh;
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.cph-text{
-    font-weight: bold;
-    color: #fff;
-    border: 1px solid black;
+.cph-logo {
+    min-height: 100vh;
+    height: auto;
+    background-image: url('/Photo-by-nick-Karvounis-on-Unsplash-copenhagen.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .cph-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.5);
-    display: inline-block;
-    width: 75%;
-}
+    color: #fff;
+  }
+
+  .cph-text h3{
+      text-align:center;
+  }
 
 .ros-logo{
     background-image: url('/photo-by-andreas-dress-on-unspash-roskilde.jpg');
@@ -55,19 +61,34 @@
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
-    text-align: center;
-    vertical-align: middle;
-    display: table;
+    position: relative;
 }
 
 .ros-text {
-    font-weight: bold;
-    color: #fff;
-    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.5);
-    display: inline-block;
-    width: 75%;
-    vertical-align: middle;
+    color: #fff;
+}
+
+.aah-logo{
+    background-image: url('/photo-y-steffen-muldbjerg-on-unsplash-min.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.aah-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
 }
   
 
