@@ -11,7 +11,7 @@
 
 
 .home{
-    background-image: url('/asset/images/photo-by-markus-winklet-on-unsplash-dk.jpg');  
+    background: url('/asset/images/photo-by-markus-winklet-on-unsplash-dk.jpg');  
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
