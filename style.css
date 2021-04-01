@@ -159,6 +159,10 @@
     height: 100vh;
 }
 
+.converter-main button{
+    float:right;
+}
+
 /* --------------------Footer */
 
 footer{
