@@ -163,9 +163,10 @@
     float:right;
 }
 
-.map{
+#map{
     border: 1px solid black;
-    height: 80vh;
+    height: 400px;
+    width: 100%;
 }
 /* --------------------Footer */
 
