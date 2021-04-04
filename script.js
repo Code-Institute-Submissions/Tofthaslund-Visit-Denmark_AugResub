@@ -31,3 +31,8 @@ var locations = [
     ['The Old City', 56.158914026402215, 10.192158113918602, 1]
 ];
 
+var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 4,
+    center: new google.maps.LatLng(55.68098180958544, 9.937588301590827),
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+});
