@@ -7,32 +7,39 @@
 
 // Function for Google Maps
 
-// function initMap() {
-//     {
-//     // The location of Tivoli Garden
-//     const tivoli = {lat: 55.67381073190113, lng: 12.568139473433078};
-//     // The Map centered on Tivoli
-//     const map = new google.maps.Map(document.getElementById("map"),{
-//         zoom: 7,
-//         center: tivoli,
-//     });
-//     // The marker, positioned at Tivoli
-//     const marker = new google.maps.Marker({
-//         position: tivoli,
-//         map: map,
-//     });
-// }
-// }
+function initMap() {
+    map = new google.maps.Map(document.getElementById("map"), {
+        center: new google.maps.LatLng(55.718128720581475, 10.17928751598598),
+        zoom: 7
+    });
 
-var locations = [
-    ['Tivoli Garden', 55.67381073190113, 12.568139473433078, 4],
-    ['LegoLand', 55.73617509671368, 9.126426344705168, 3],
-    ['Bakken', 55.77533533280311, 12.577739212056098, 2],
-    ['The Old City', 56.158914026402215, 10.192158113918602, 1]
-];
+    const iconBase =
+    "https://developers.google.com/maps/documentation/javascript/examples/full/images/";
+    const icons = {
+        info: {
+            icon: iconBase + "info-i_maps.png",
+        }
+    }
 
-var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 4,
-    center: new google.maps.LatLng(55.68098180958544, 9.937588301590827),
-    mapTypeId: google.maps.MapTypeId.ROADMAP
-});
+    const locations = [
+        {
+            position: new google.maps.LatLng(55.67380508131984, 12.568093454381403),
+            type: "info",
+        },
+        {
+            position: new google.maps.LatLng(55.77534740144054, 12.577889415758227),
+            type: "info",
+        },
+    ];
+
+    //Create markers
+    for(let i = 0; i < locations.length; i++){
+        const marker = new google.maps.Marker({
+            position: locations[i].position,
+            icon: icons[locations[i].type].icon,
+            map: map,
+        });
+    }
+}
+
+
