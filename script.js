@@ -10,16 +10,8 @@
 function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
         center: new google.maps.LatLng(55.718128720581475, 10.17928751598598),
-        zoom: 7
+        zoom: 8,
     });
-
-    const iconBase =
-    "https://developers.google.com/maps/documentation/javascript/examples/full/images/";
-    const icons = {
-        info: {
-            icon: iconBase + "info-i_maps.png",
-        }
-    }
 
     const locations = [
         {
@@ -36,7 +28,7 @@ function initMap() {
     for(let i = 0; i < locations.length; i++){
         const marker = new google.maps.Marker({
             position: locations[i].position,
-            icon: icons[locations[i].type].icon,
+           
             map: map,
         });
     }
