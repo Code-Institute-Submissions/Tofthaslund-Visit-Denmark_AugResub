@@ -8,30 +8,29 @@
 // Function for Google Maps
 
 function initMap() {
-    map = new google.maps.Map(document.getElementById("map"), {
-        center: new google.maps.LatLng(55.718128720581475, 10.17928751598598),
-        zoom: 8,
+    const myLatLng = { lat: 55.60012186704416, lng: 9.740083483716866 };
+    const tivoli = { lat: 55.67384138148071, lng: 12.568372404399566 };
+    const cphzoo = { lat: 55.672536335486996, lng: 12.521637048581432 };
+    const legoland = { lat: 55.742854035512835, lng: 9.132106277507289 };
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 7,
+      center: myLatLng,
     });
-
-    const locations = [
-        {
-            position: new google.maps.LatLng(55.67380508131984, 12.568093454381403),
-            type: "info",
-        },
-        {
-            position: new google.maps.LatLng(55.77534740144054, 12.577889415758227),
-            type: "info",
-        },
-    ];
-
-    //Create markers
-    for(let i = 0; i < locations.length; i++){
-        const marker = new google.maps.Marker({
-            position: locations[i].position,
-           
-            map: map,
-        });
-    }
-}
-
+    new google.maps.Marker({
+      position: tivoli,
+      map,
+      title: "Tivoli Garden",
+    });
+    new google.maps.Marker({
+        position: cphzoo,
+        map,
+        title: "Tivoli Garden",
+      });
+      new google.maps.Marker({
+        position: legoland,
+        map,
+        title: "Tivoli Garden",
+      });
+  }
+  
 
