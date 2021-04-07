@@ -42,21 +42,32 @@
     </header>
 
     <main class="converter-main">
-        <div class="dropdown">
+         <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" 
             id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Please select a currency
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a href="#" class="dropdown-item">USD</a>
-            <a href="#" class="dropdown-item">USD</a>
-            <a href="#" class="dropdown-item">USD</a>
-            <a href="#" class="dropdown-item">USD</a>
-        </div>
-        </div>
-    <h4>Tourist attraction in Denmark</h4>
+            <a href="#" class="dropdown-item">GBP</a>
+            <a href="#" class="dropdown-item">JP YEN</a>
+            <a href="#" class="dropdown-item">Chinese YEN</a>
+        </div></div>  
+    <h4 id="tourist-headline">Tourist attractions in Denmark</h4>
     <div id="map"></div>
-        
+      
+        <form >
+            <p>Please pick a tourist attraction to visit</p>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">1. Tivoli Garden</a>
+                  <a href="#">2. Copenhagen Zoo</a>
+                  <a href="#">3. Legoland</a>
+                  <a href="#">4. The Old City</a>
+                </div>
+              </div> 
+        </form>
     
     </main>
 
