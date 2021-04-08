@@ -48,6 +48,7 @@ function myFunction() {
 }
 
 window.onclick = function(event) {
+    event.preventDefault();
     if (!event.target.matches('.dropbtn')) {
         var dropdowns = document.getElementsByClassName("dropdown-content");
         var i;
