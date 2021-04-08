@@ -56,10 +56,9 @@
     <h4 id="tourist-headline">Tourist attractions in Denmark</h4>
     <div id="map"></div>
       
-        <form >
-            <p>Please pick a tourist attraction to visit</p>
+        <form class="select">
             <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                <button onclick="myFunction()" class="dropbtn">Please pick a tourist attraction to visit</button>
                 <div id="myDropdown" class="dropdown-content">
                   <a href="#">1. Tivoli Garden</a>
                   <a href="#">2. Copenhagen Zoo</a>
@@ -67,6 +66,14 @@
                   <a href="#">4. The Old City</a>
                 </div>
               </div> 
+              <div class="amount">
+              <p>Admission for 1 person </p><p>100DKR</p>
+              <input type="number" placeholder="Amount">
+              <p>Admission for 2 people </p><p>200DKR</p>
+              <input type="number" placeholder="Amount">
+              <p>Admission for a family of 4</p><p>300DKR</p>
+              <input type="number" placeholder="Amount">
+              </div>
         </form>
     
     </main>

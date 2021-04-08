@@ -60,9 +60,3 @@ window.onclick = function(event) {
         }
     }
 }
-
-//prevent the page from refreshing using dropdown
-
-
-
-
