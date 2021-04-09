@@ -13,6 +13,7 @@ function initMap() {
         center: {lat: 55.60012186704416, lng: 9.740083483716866}
     });
 
+    // The locations of the picked tourist acctractions
 const tourist = [
     [{ lat: 55.67384138148071, lng: 12.568372404399566 }, "Tivoli Garden" ],
     [{ lat: 55.672536335486996, lng: 12.521637048581432 }, "Copenhagn Zoo"],
@@ -41,22 +42,3 @@ marker.addListener("click", () => {
 }
 
 
-//Dropdown menu for tourist accractions
-
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-window.onclick = function(event) {
-    event.preventDefault();
-    if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-            }
-        }
-    }
-}

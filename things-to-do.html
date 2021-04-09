@@ -9,7 +9,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="icon" href="/FavIcon/favicon-32x32.png" type="image/gif" sizes="32x32"> 
     <link rel="stylesheet" href="style.css">
     <title>Visit Denmark</title>
 </head>
@@ -46,25 +45,32 @@
     <h4 id="tourist-headline">Tourist attractions in Denmark</h4>
     <div id="map"></div>
       
-        <form class="select">
-            <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Please pick a tourist attraction to visit</button>
-                <div id="myDropdown" class="dropdown-content">
-                  <a href="#">1. Tivoli Garden</a>
-                  <a href="#">2. Copenhagen Zoo</a>
-                  <a href="#">3. Legoland</a>
-                  <a href="#">4. The Old City</a>
-                </div>
-              </div> 
-              <div class="amount">
-              <p>Admission for 1 person </p><p>100DKR</p>
-              <input type="number" placeholder="Amount">
-              <p>Admission for 2 people </p><p>200DKR</p>
-              <input type="number" placeholder="Amount">
-              <p>Admission for a family of 4</p><p>300DKR</p>
-              <input type="number" placeholder="Amount">
-              </div>
-        </form>
+       <div id="box">
+           <h4>Currency Convertor</h4>
+           <p>See what admission is using our currency converter</p>
+           <table>
+               <tr>
+                   <td><input id="fromAmount" type="text"></td>
+                   <td>
+                      <select id="from">
+                          <option value="DKK" selected>Danish Dollar</option>
+                      </select> 
+                   </td>
+               </tr>
+               <tr>
+                <td><input id="toAmount" type="text"></td>
+                <td>
+                      <select id="to">
+                          <option value="USD">American Dollar</option>
+                          <option value="CNY">Yuan Renminbi</option>
+                          <option value="JPY">Japanese Yen</option>
+                          <option value="EUR">European Currency</option>
+                          <option value="AUD">Australian Dollar</option>
+                      </select> 
+                   </td>
+               </tr>
+           </table>
+       </div>
     
     </main>
 
@@ -99,10 +105,13 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+   <script src="script.js"></script>
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOQchzUXlQuo23FrcJTZE5S3R1SzJu-cg&callback=initMap&libraries=&v=weekly"
       async
     ></script>
+
 </body>
+
+
 </html>
