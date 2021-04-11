@@ -171,8 +171,26 @@
     width: 100%;
 }
 
-#from option::-ms-expand{
-    display: none;
+#box{
+    border: 1px solid black;
+    text-align: center;
+    margin: 0px auto;
+    width: 50%
+}
+
+#from::-ms-expand {	
+    display: none; 
+}
+#from{
+    -webkit-appearance: none;
+    appearance: none;
+}
+table{
+    margin: 0px auto;
+}
+
+table input{
+    margin-right: 10px
 }
 
 
