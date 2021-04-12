@@ -171,28 +171,41 @@
     width: 100%;
 }
 
-#box{
+.box{
     border: 1px solid black;
     text-align: center;
     margin: 0px auto;
-    width: 50%
+    width: 50%;
+    height: 15vh;
+    position: relative;
+    background-color: rgba(175, 175, 175, 0.5);
 }
 
-#from::-ms-expand {	
+.currency{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#from_currency::-ms-expand {	
     display: none; 
 }
-#from{
+#from_currency{
     -webkit-appearance: none;
     appearance: none;
 }
-table{
-    margin: 0px auto;
+
+/* This code snippet is borrowred from W3school.com */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-table input{
-    margin-right: 10px
+input[type=number] {
+  -moz-appearance: textfield;
 }
-
+/* End of code snippet */
 
 
 /* --------------------Footer */

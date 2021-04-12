@@ -45,32 +45,22 @@
     <h4 id="tourist-headline">Tourist attractions in Denmark</h4>
     <div id="map"></div>
       
-       <div id="box">
-           <h4>Currency Convertor</h4>
-           <p>See what admission is using our currency converter</p>
-           <table>
-               <tr>
-                   <td><input id="fromAmount" type="text" size="10" placeholder="100"></td>
-                   <td>
-                      <select id="from">
-                          <option value="DKK">Danish Kroner</option>
-                      </select> 
-                   </td>
-               </tr>
-               <tr>
-                <td><input id="toAmount" type="text" size="10" disabled></td>
-                <td>
-                      <select id="to">
-                          <option value="USD">American Dollar</option>
-                          <option value="CNY">Yuan Renminbi</option>
-                          <option value="JPY">Japanese Yen</option>
-                          <option value="EUR">European Currency</option>
-                          <option value="AUD">Australian Dollar</option>
-                      </select> 
-                   </td>
-               </tr>
-           </table>
-       </div>
+      <div class="box">
+          <h6>Please use our currency converter to see admission fee in your local currencies</h6>
+          <div class="currency">
+              <select  id="from_currency">
+                  <option value="DKK">DKK</option>
+              </select>
+              <input type="number" id="from_ammount" placeholder="1" value="1">
+              <select  id="to_currency">
+                  <option value="AUD">AUD</option>
+                  <option value="USD">USD</option> 
+                  <option value="CYN">CYN</option> 
+                  <option value="JPY">JPY</option> 
+                </select>
+                <input type="number" id="to_ammount" placeholder="0">
+            </div> 
+      </div>
     
     </main>
 

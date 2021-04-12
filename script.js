@@ -1,9 +1,4 @@
- //API key for currency exhange 
 
-// http://data.fixer.io/api/latest
-
-/* ? access_key = ecc8a2d2f68fa6411af0e18ae84df2aa;
-*/
 
 // Function for Google Maps
 
@@ -40,5 +35,14 @@ marker.addListener("click", () => {
     });
 });
 }
+
+
+//Currency converter 
+
+const from_currency01 = document.getElementById('from_currency')
+const from_ammount02 = document.getElementById('from_ammount')
+const to_currency03 = document.getElementById('to_currency')
+const to_ammount04 = document.getElementById('to_ammount')
+
 
 
