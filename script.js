@@ -38,11 +38,15 @@ marker.addListener("click", () => {
 
 
 //Currency converter 
-
+// declared variables
 const from_currency01 = document.getElementById('from_currency')
 const from_ammount02 = document.getElementById('from_ammount')
 const to_currency03 = document.getElementById('to_currency')
 const to_ammount04 = document.getElementById('to_ammount')
 
-
+//Add eventlistener
+from_currency01.addEventListener('change', calculate);
+from_ammount02.addEventListener('input', calculate);
+to_currency03.addEventListener('change', calculate)
+to_ammount04.addEventListener('input', calculate);
 
