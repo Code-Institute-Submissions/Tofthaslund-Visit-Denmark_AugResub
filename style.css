@@ -11,7 +11,7 @@
 
 
 .home{
-    background: url('/asset/images/photo-by-markus-winklet-on-unsplash-dk.JPG');  
+    background: url('/photo-by-markus-winklet-on-unsplash-dk.jpg');  
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -50,7 +50,7 @@
 .cph-logo {
     min-height: 100vh;
     height: auto;
-    background-image: url('/asset/images/Photo-by-nick-Karvounis-on-Unsplash-copenhagen.jpg');
+    background-image: url('/Photo-by-nick-Karvounis-on-Unsplash-copenhagen.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -76,7 +76,7 @@
   }
 
 .ros-logo{
-    background-image: url('/asset/images/photo-by-andreas-dress-on-unspash-roskilde.jpg');
+    background-image: url('/photo-by-andreas-dress-on-unspash-roskilde.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -102,7 +102,7 @@
 
 
 .aah-logo{
-    background-image: url('/asset/images/photo-y-steffen-muldbjerg-on-unsplash-min.jpg');
+    background-image: url('/photo-by-kaiison-on-unspash-aarhus.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -129,7 +129,7 @@
 .ska-logo {
     min-height: 100vh;
     height: auto;
-    background-image: url('/asset/images/photo-by-sevak-on-unspalsh-skagen-min.jpg');
+    background-image: url('/photo-by-sevak-on-unsplash-skagen.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
