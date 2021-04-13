@@ -43,6 +43,7 @@ const from_currency01 = document.getElementById('from_currency')
 const from_ammount02 = document.getElementById('from_ammount')
 const to_currency03 = document.getElementById('to_currency')
 const to_ammount04 = document.getElementById('to_ammount')
+const rate06 = document.getElementById('rate');
 
 //Add eventlistener
 from_currency01.addEventListener('change', calculate);
@@ -50,3 +51,18 @@ from_ammount02.addEventListener('input', calculate);
 to_currency03.addEventListener('change', calculate)
 to_ammount04.addEventListener('input', calculate);
 
+//function for currency cunvertor
+
+function calculate() {
+    const from_currency = from_currency01.value;
+    const to_currency = to_currency03.value;
+
+    fetch(`https://api.exchangerate-api.com/v4/latest/${from_currency}`)
+    .then(res => res.json())
+    .then(res => {
+        const rate = res.rates[to_currency];
+        to_ammount04.value = (from_ammount02.value * rate).toFixed(2);
+        })
+}
+
+calculate();
