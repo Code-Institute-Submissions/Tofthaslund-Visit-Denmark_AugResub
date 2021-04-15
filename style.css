@@ -171,19 +171,16 @@
     width: 100%;
 }
 
-.addmission{
-    display: flex;
-    justify-content: center;
-}
+
 
 .collapsible{
     background-color: #343A40;
     color: #eee;
     cursor: pointer;
     padding: 18px;
-    width: 25%;
+    width: 100%;
     border: none;
-    text-align: left;
+    text-align: center;
     outline: none;
     font-size: 1.2rem;
     border-radius: 5px;
