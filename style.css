@@ -171,14 +171,24 @@
     width: 100%;
 }
 
+.collapsible{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    height: auto
+}
+
+
 .box{
-    border: 1px solid black;
     text-align: center;
     margin: 0px auto;
-    width: 50%;
+    width: 60%;
     height: 20vh;
     position: relative;
-    background-color: rgba(175, 175, 175, 0.5);
+    background-color: #55ce61;
+    border-radius: 10px;
 }
 
 .currency{
@@ -206,6 +216,19 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 /* End of code snippet */
+
+#to_currency, #from_currency{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#to_ammount, #from_ammount{
+    border-radius: 10px;
+    height: 40px;
+}
 
 
 /* --------------------Footer */

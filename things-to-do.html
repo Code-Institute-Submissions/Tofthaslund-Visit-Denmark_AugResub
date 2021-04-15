@@ -34,6 +34,10 @@
                             <a href="things-to-do.html" class="nav-link">What to experience
                             </a>
                         </li>
+                        <li class="nav-item active">
+                            <a href="addmission.html" class="nav-link">Addmission Fees
+                            </a>
+                        </li>
                     </ul>
                 </div>
         </div>
@@ -45,21 +49,39 @@
     <h4 id="tourist-headline">Tourist attractions in Denmark</h4>
     <div id="map"></div>
       
+    <button type="button" class="collapsible">Tivoli Garden</button>
+    <div class="content">
+      <p>Addmission Fees</p>
+    </div> 
+    <button type="button" class="collapsible">Copenhagen Zoo</button>
+    <div class="content">
+      <p>Addmission Fees</p>
+    </div> 
+    <button type="button" class="collapsible">LegoLand</button>
+    <div class="content">
+      <p>Addmission Fees</p>
+    </div> 
+    <button type="button" class="collapsible">The Old City</button>
+    <div class="content">
+      <p>Addmission Fees</p>
+    </div> 
+
       <div class="box">
           <h6>Please use our currency converter to see admission fee in your local currencies</h6>
           <div class="currency">
               <select  id="from_currency">
-                  <option value="DKK">DKK</option>
+                  <option value="DKK"> DKK<img src="flags/den-flag.gif" alt="DK flag"></option>
               </select>
               <input type="number" id="from_ammount" placeholder="1" value="1">
               
               <select  id="to_currency">
-                  <option value="AUD">AUD</option>
+                <option value="AUD" id="aus">AUD</option>
                   <option value="USD">USD</option> 
-                  <option value="CYN">CYN</option> 
+                  <option value="CNY">CNY</option> 
                   <option value="JPY">JPY</option> 
+                  <option value="GBP">GBP</option> 
                 </select>
-                <input type="number" id="to_ammount" placeholder="0">
+                <input type="number" id="to_ammount" placeholder="0" disabled>
             </div> 
       </div>
     
