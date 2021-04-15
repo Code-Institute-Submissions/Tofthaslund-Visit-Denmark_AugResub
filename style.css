@@ -198,10 +198,10 @@
 .box{
     text-align: center;
     margin: 0px auto;
-    width: 60%;
+    width: 100%;
     height: 20vh;
     position: relative;
-    background-color: #55ce61;
+    background-image: linear-gradient(to right, green, yellow);
     border-radius: 10px;
 }
 
@@ -242,6 +242,11 @@ input[type=number] {
 #to_ammount, #from_ammount{
     border-radius: 10px;
     height: 40px;
+    font-weight: bold;
+}
+#to_ammount{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
 
