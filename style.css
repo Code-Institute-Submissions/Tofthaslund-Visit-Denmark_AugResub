@@ -50,7 +50,7 @@
 .cph-logo {
     min-height: 100vh;
     height: auto;
-    background-image: url('/Photo-by-nick-Karvounis-on-Unsplash-copenhagen.jpg');
+    background-image: url('/photo-by-nick-Karvounis-on-unsplash-copenhagen.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -280,4 +280,33 @@ footer{
 
 .social-media li a:hover{
     color: rgb(87, 184, 216);
+}
+
+
+@media screen and (max-width: 800px){
+    .home-text{
+        width: 100%;
+    }
+    .city-nav{
+        opacity: 0;
+    }
+    .cph-text{
+        width: 100%;
+    }
+    .ros-text{
+        width: 100%;
+    }
+    .aah-text{
+        width: 100%;
+    }
+    .ska-text{
+        width: 100%;
+    }
+    
+    #from_ammount{
+        width: 100px;
+    }
+    #to_ammount{
+        width: 100px; 
+    }
 }
