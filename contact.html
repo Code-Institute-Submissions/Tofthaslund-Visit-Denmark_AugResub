@@ -51,11 +51,12 @@
     </header>
 
     <main class="contact container-fluid">
-        <form id="form"></form>
+        <form id="form">
         <input type="text" name="name" class="form-control" id="fullname" placeholder="Full Name" id="form-name" required>
-        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email Address" id="form-email">
+        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email Address" id="form-email" required>
         <textarea rows="5" name="question" class="form-control" id="question" placeholder="Your Question" required></textarea>
         <button type="submit" class="btn btn-secondary center-block" id="button">Send Email</button>
+    </form>
     </main>
 
     <footer class="bg-dark">
@@ -89,6 +90,6 @@
         </div>
     </footer>
     
-    <script src="script.js"></script>
+    <script src="contact.js"></script>
 </body>
 </html>
