@@ -253,7 +253,28 @@ input[type=number] {
 /* ---------------------contact */
 
 .contact{
-    height: 100vh;    
+    height: 90vh;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-text{
+    width: 75%;
+    text-align: center;
+}
+
+#form{
+    width: 75%;
+}
+
+button{
+    float: right;
+}
+
+#button:hover{
+    background-color: red;
+    transition: all 0.5s;
 }
 
 /* --------------------Footer */
