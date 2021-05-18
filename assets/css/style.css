@@ -194,6 +194,9 @@
     background-color: #f1f1f1
 }
 
+#currency-text{
+    text-align:center;
+}
 
 .box{
     text-align: center;
