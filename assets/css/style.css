@@ -50,7 +50,7 @@
 .cph-logo {
     min-height: 100vh;
     height: auto;
-    background-image: url("/assets/images/Photo-by-nick-Karvounis-on-Unsplash-copenhagen.jpg");
+    background-image: url("../images/Photo-by-nick-Karvounis-on-Unsplash-copenhagen.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -76,7 +76,7 @@
   }
 
 .ros-logo{
-    background-image: url("/assets/images/photo-by-andreas-dress-on-unspash-roskilde.jpg");
+    background-image: url("../images/photo-by-andreas-dress-on-unspash-roskilde.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -102,7 +102,7 @@
 
 
 .aah-logo{
-    background-image: url("/assets/images/photo-by-kaiison-on-unspash-aarhus.jpg");
+    background-image: url("../images/photo-by-kaiison-on-unspash-aarhus.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -129,7 +129,7 @@
 .ska-logo {
     min-height: 100vh;
     height: auto;
-    background-image: url("/assets/images/photo-by-sevak-on-unsplash-skagen.jpg");
+    background-image: url("../images/photo-by-sevak-on-unsplash-skagen.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
