@@ -33,9 +33,12 @@ The website is made responsive with Bootstrap and CSS.
 
 ### Wireframes
 - Desktop:
-- [Index](wirerames/desktop/desktop-index.PNG)
-- [Gallery](wirerames/desktop/desktop-cities.PNG)
-- [Sign-Up](wirerames/desktop/desktop-things.PNG)
+- [Index](assets/wirerames/desktop/desktop-index.PNG)
+- [Gallery](assets/wirerames/desktop/desktop-cities.PNG)
+- [Sign-Up](assets/wirerames/desktop/desktop-things.PNG)
+- [Contact](assets/wireframes/desktop/contact.PNG)
+-Tablet:
+
 
 
 ---
