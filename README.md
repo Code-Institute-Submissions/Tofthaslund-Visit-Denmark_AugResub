@@ -38,6 +38,15 @@ The website is made responsive with Bootstrap and CSS.
 - [Sign-Up](assets/wirerames/desktop/desktop-things.PNG)
 - [Contact](assets/wireframes/desktop/contact.PNG)
 -Tablet:
+- [Index](assets/wirerames/Tablet/Home.PNG)
+- [Gallery](assets/wirerames/Tablet/cities.PNG)
+- [Sign-Up](assets/wirerames/Tablet/maps.PNG)
+- [Contact](assets/wirerames/Tablet/contact.PNG)
+-Mobile:
+- [Index](assets/wirerames/mobile/home.PNG)
+- [Gallery](assets/wirerames/mobile/cities.PNG)
+- [Sign-Up](assets/wirerames/mobile/maps.PNG)
+- [Contact](assets/wirerames/mobile/contact.PNG)
 
 
 
