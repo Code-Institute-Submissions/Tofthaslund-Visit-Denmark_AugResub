@@ -1,10 +1,6 @@
 # Visit Denmark
+![image](https://user-images.githubusercontent.com/72796767/119263700-0f5cc480-bbd8-11eb-9b27-7bfe654d17a7.png)
 
-
-### Table of contents 
-
-- [Description](#description)
-- [UX](#ux)
 
 ---
 ## Description
@@ -119,8 +115,172 @@ To clone this project from GitHub:
 
   ---
 
+   ## Testing of the functionality of the website
 
+1. 
+- Action: **Click on the cities tab.**
+- Expected behaviour: **Browser goes to cities page of website.**
+- Pass/Fail: **Pass.**
 
+2. 
+- Action: **Click on the What to experience tab.**
+- Expected behaviour: **Browser goes to What to experience page of website.**
+- Pass/Fail: **Pass.**
+
+3. 
+- Action: **Click on the contact tab.**
+- Expected behaviour: **Browser goes to contact page of website.**
+- Pass/Fail: **Pass.**
+
+4. 
+- Action: **Click on the Home tab.**
+- Expected behaviour: **Browser goes to Home page of website.**
+- Pass/Fail: **Pass.**
+
+5. 
+- Action: **Click on the Visit Denmark headline.**
+- Expected behaviour: **Browser goes to Home page of website.**
+- Pass/Fail: **Pass.**
+
+6. 
+- Action: **Click on the Facebook tab.**
+- Expected behaviour: **Browser opens new page for facebook site.**
+- Pass/Fail: **Pass.**
+
+7. 
+- Action: **Click on the Twitter tab.**
+- Expected behaviour: **Browser opens new page for twitter site.**
+- Pass/Fail: **Pass.**
+
+8. 
+- Action: **Click on the Youtube tab.**
+- Expected behaviour: **Browser opens new page for youtube site.**
+- Pass/Fail: **Pass.**
+
+9. 
+- Action: **Click on the instagram tab.**
+- Expected behaviour: **Browser opens new page for instagram site.**
+- Pass/Fail: **Pass.**
+
+10. 
+- Action: **Click on the Copenhagen tab on cities.html.**
+- Expected behaviour: **Page goes to Copenhagen section of the page.**
+- Pass/Fail: **Pass.**
+
+11. 
+- Action: **Click on the Roskilde tab on cities.html.**
+- Expected behaviour: **Page goes to Roskilde section of the page.**
+- Pass/Fail: **Pass.**
+
+12. 
+- Action: **Click on the Aarhus tab on cities.html.**
+- Expected behaviour: **Page goes to Aarhus section of the page.**
+- Pass/Fail: **Pass.**
+
+13. 
+- Action: **Click on the Skagen tab on cities.html.**
+- Expected behaviour: **Page goes to Skagen section of the page.**
+- Pass/Fail: **Pass.**
+
+14. 
+- Action: **Click on the Back to Top tab on cities.html.**
+- Expected behaviour: **Page goes to top of the page.**
+- Pass/Fail: **Pass.**
+
+15. 
+- Action: **Click on marker no.1 on google maps in things-to-do.html.**
+- Expected behaviour: **google maps shows "1. Tivoli Garden".**
+- Pass/Fail: **Pass.**
+
+16. 
+- Action: **Click on marker no.2 on google maps in things-to-do.html.**
+- Expected behaviour: **google maps shows "2. Copenhagn Zoo".**
+- Pass/Fail: **Pass.**
+
+17. 
+- Action: **Click on marker no.3 on google maps in things-to-do.html.**
+- Expected behaviour: **google maps shows "3. LegoLand".**
+- Pass/Fail: **Pass.**
+
+18. 
+- Action: **Click on marker no.4 on google maps in things-to-do.html.**
+- Expected behaviour: **google maps shows "4. The Old City".**
+- Pass/Fail: **Pass.**
+
+19. 
+- Action: **Click on 1.Tivoli Garden tab in things-to-do.html.**
+- Expected behaviour: **Tab onfolds and show information and admision fees.**
+- Pass/Fail: **Pass.**
+
+20. 
+- Action: **Click on 2.Copenhagen Zoo tab in things-to-do.html.**
+- Expected behaviour: **Tab onfolds and show information and admision fees.**
+- Pass/Fail: **Pass.**
+
+21. 
+- Action: **Click on 3.LegoLand tab in things-to-do.html.**
+- Expected behaviour: **Tab onfolds and show information and admision fees.**
+- Pass/Fail: **Pass.**
+
+22. 
+- Action: **Click on 4.The Old City tab in things-to-do.html.**
+- Expected behaviour: **Tab onfolds and show information and admision fees.**
+- Pass/Fail: **Pass.**
+
+22. 
+- Action: **Click on 4.The Old City tab in things-to-do.html.**
+- Expected behaviour: **Tab onfolds and show information and admision fees.**
+- Pass/Fail: **Pass.**
+
+23. 
+- Action: **insert ammount in DKK tab things-to-do.html.**
+- Expected behaviour: **AUD tab shows value in local currency.**
+- Pass/Fail: **Pass.**
+
+24. 
+- Action: **insert ammount in DKK tab things-to-do.html.**
+- Expected behaviour: **USD tab shows value in local currency.**
+- Pass/Fail: **Pass.**
+
+25. 
+- Action: **insert ammount in DKK tab things-to-do.html.**
+- Expected behaviour: **CNY tab shows value in local currency.**
+- Pass/Fail: **Pass.**
+
+26. 
+- Action: **insert ammount in DKK tab things-to-do.html.**
+- Expected behaviour: **JPY tab shows value in local currency.**
+- Pass/Fail: **Pass.**
+
+27. 
+- Action: **insert ammount in DKK tab things-to-do.html.**
+- Expected behaviour: **GBP tab shows value in local currency.**
+- Pass/Fail: **Pass.**
+
+27. 
+- Action: **insert ammount in DKK tab things-to-do.html.**
+- Expected behaviour: **GBP tab shows value in local currency.**
+- Pass/Fail: **Pass.**
+
+28. 
+- Action: **Click Send Email without filling out name.**
+- Expected behaviour: **pop up tab with text "please fill out this tab" apears.**
+- Pass/Fail: **Pass.**
+
+29. 
+- Action: **Click Send Email without filling out email address.**
+- Expected behaviour: **pop up tab with text "please fill out this tab" apears.**
+- Pass/Fail: **Pass.**
+
+30. 
+- Action: **Click Send Email without filling out text box.**
+- Expected behaviour: **pop up tab with text "please fill out this tab" apears.**
+- Pass/Fail: **Pass.**
+
+30. 
+- Action: **Click Send Email with all fields filled out.**
+- Expected behaviour: **pop up tab with text "Thanks, we will be in touch!" apears.**
+- Pass/Fail: **Pass.**
 ---
 
 ## References
